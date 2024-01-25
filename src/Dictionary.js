@@ -1,45 +1,26 @@
- import React from "react"; 
+ import React,{useState} from "react"; 
 
 export default function Dictionary() { 
-
- 
+const [keyword,setKeyword]=useState("");
 
 
     function search(event){ 
-
         event.preventDefault(); 
-
-        alert("Searching" 
-
-        ); 
-
+        alert(`Searching for ${keyword} definition...`); 
     } 
 
-     
-
-     
-
+    function handleChange(event){
+        setKeyword(event.target.value);
+   
+    }
     return ( 
 
-        <div ClassName="intro"> 
-
-             
-
+        <div className="intro"> 
         <form onSubmit={search}> 
-
-             
-
-           <input className="" type="search" autoFocus={true}/> 
+           <input className="" type="search" autoFocus={true} onChange={handleChange}/> 
 
            <input type="submit" value="Search"/> 
 
- 
-
-             
-
-         
-
-         
 
         </form>     
 
