@@ -1,11 +1,15 @@
  import React,{useState} from "react"; 
  import axios from "axios";
+ import Results from "./Results";
 
 export default function Dictionary() { 
 const [keyword,setKeyword]=useState("");
+const [results, setResults]=useState(null);
 
     function handleResponse(response){
-        console.log(response);
+
+        setResults(response.data);
+        
     }
     function search(event){ 
         event.preventDefault(); 
@@ -24,7 +28,5 @@ const [keyword,setKeyword]=useState("");
            <input className="" type="search" autoFocus={true} onChange={handleChange}/> 
            <input type="submit" value="Search"/> 
         </form>     
-
-            </div>); 
-
-} 
+        <Results results={results}/>
+            </div>);} 
