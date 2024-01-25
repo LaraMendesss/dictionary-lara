@@ -1,8 +1,8 @@
- import React, {useState} from "react"; 
+ import React from "react"; 
 
 export default function Dictionary() { 
 
-    let [keyword, setKeywork]=useState(""); 
+ 
 
 
     function search(event){ 
