@@ -1,6 +1,7 @@
  
 body{ 
   text-align: center; 
+  
 } 
 
  
@@ -19,12 +20,16 @@ footer{
 } 
 
  img{
-  width: 100%;
-  max-width: 400px;
+  width: 300px;
+
   margin-top: 50px;
  }
 h1{
   font-size: 48px;
-  margin: 10px auto 30px auto;
+  margin: 0 auto 20px auto;
   padding: none;
+}
+
+.punto{
+  color:rgb(13,110,253);
 }

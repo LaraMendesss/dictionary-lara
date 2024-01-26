@@ -6,7 +6,7 @@ console.log(props.results);
 if (props.results){
 return(
     <div className="results">
-        <h2>{props.results.word}</h2>
+        <h2 className="text-capitalize">{props.results.word}</h2>
    {props.results.meanings.map(function (meaning, index) { 
 return ( 
 <div key={index}> 
