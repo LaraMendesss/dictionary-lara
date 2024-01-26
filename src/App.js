@@ -9,7 +9,7 @@ export default function App() {
     <div className="App"> 
       <header className="App-header"> 
       <img src={logo} alt="logo" className="img-fluid" />
-      <h1>Dictionary<span className="punto">!</span></h1> 
+      <h1><span className="punto">Đ</span>icti<span className="punto">ø</span>n<span className="punto">ä</span>r<span className="punto">ŷ</span><span className="punto">!</span></h1> 
       </header> 
       <main> 
         <Dictionary /> 

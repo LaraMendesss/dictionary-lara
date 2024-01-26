@@ -6,7 +6,10 @@ console.log(props.results);
 if (props.results){
 return(
     <div className="results">
+      <div className="wordphonetic">
         <h2 className="text-capitalize">{props.results.word}</h2>
+        <h4 className="phonetics"> <span className="icon">🔊</span> "{props.results.phonetic}"</h4>
+        </div>
    {props.results.meanings.map(function (meaning, index) { 
 return ( 
 <div key={index}> 

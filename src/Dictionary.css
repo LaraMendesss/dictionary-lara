@@ -2,7 +2,6 @@
 .results{
     padding: 40px;
     background-color:lightgray;
-  
     padding: 20px;
     border-radius: 20px;
     width: 1000px;
@@ -63,4 +62,22 @@ h3{
 }
 strong{
     color: rgb(13,110,253);
+}
+
+.wordphonetic{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 800px;
+    column-gap: 50px;
+
+}
+
+.phonetics{
+    padding-top: 50px;
+}
+
+.icon{
+    background-color: white;
+    border-radius: 40px;
+    padding: 10px;
 }
