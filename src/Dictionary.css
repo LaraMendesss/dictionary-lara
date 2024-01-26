@@ -42,8 +42,8 @@ h3{
 }
 .definition{
     text-align: left;
-    padding-left: 120px;
-
+     margin-left: 120px;
+    margin-right: 40px;
     font-size: 14px;
     font-weight: 500;
 
@@ -52,4 +52,5 @@ h3{
     text-align: left;
     padding-left: 120px;
     font-size: 14px;
+   
 }
