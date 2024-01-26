@@ -87,3 +87,13 @@ strong{
     border-radius: 40px;
     padding: 10px;
 }
+.photos{
+    max-width: 950px;
+    display: block;
+    margin: 0 auto;
+}
+
+.photos img{
+    border-radius: 10px;
+    height: 90%;
+}
