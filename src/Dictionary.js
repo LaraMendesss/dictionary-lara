@@ -25,7 +25,7 @@ const[photos, setPhotos]=useState(null);
 
    
     let photoapiKey=`dda9a648t200432eo3334f85db57e348`;
-    let photoapiUrl=`https://api.shecodes.io/images/v1/search?query=${photos}&key=${photoapiKey}`;
+    let photoapiUrl=`https://api.shecodes.io/images/v1/search?query=${keyword}&key=${photoapiKey}`;
 
 
      axios.get(photoapiUrl).then(handlePhotoResponse);} 
